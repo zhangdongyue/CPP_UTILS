@@ -7,9 +7,8 @@
 
 #include <pthread.h>
 
-
-// @Author dongyue.zhang (zhangdy1986@gmail.com)
-
+// @Author dongyue.zhang 
+// @Mailto zhangdy1986(at)gmail.com
 
 namespace utils {
 
