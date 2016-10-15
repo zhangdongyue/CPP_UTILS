@@ -12,6 +12,8 @@
 // @Author zhangdy1986(at)gmail.com
 // @Date 2016-09-25
 
+namespace utils {
+
 template <typename StoragePolicy>
 class Storage {
  public:
@@ -69,6 +71,8 @@ Storage<StoragePolicy>::GetWithRetry(
     }
   }
 }  // GetWithRetry
+
+}  // namespace utils
 
 #endif  // SRC_UTILS_BASE_STORAGE_H_
 
