@@ -102,6 +102,7 @@ template<typename TLogPolicy>
 void Logger<TLogPolicy>::PrintBinary(
     const char* data, size_t len) {
   _write_mutex.lock();
+  _timestamp = time(NULL);
   _policy->Write(data, len, _timestamp);
   _write_mutex.unlock();
 }

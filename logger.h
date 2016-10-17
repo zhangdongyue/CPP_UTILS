@@ -4,7 +4,7 @@
 #ifndef SRC_UTILS_LOGGER_H_
 #define SRC_UTILS_LOGGER_H_
 
-#include "utils/logging.h"
+#include "logging.h"
 #include "gflags/gflags.h"
 
 // @Author dongyue.zhang(zhangdy1986(at)gmail.com)

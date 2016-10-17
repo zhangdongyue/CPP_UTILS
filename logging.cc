@@ -1,7 +1,7 @@
 /*====================================================
  * Copyright (c) 2015-2016 ZIPPY.Z All Rights Reserved.
  *====================================================*/
-#include "utils/logging.h"
+#include "logging.h"
 
 // @Author dongyue.zhang(zhangdy1986(at)gmail.com)
 // @Brief Logging print interface
