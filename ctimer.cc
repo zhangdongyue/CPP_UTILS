@@ -2,7 +2,7 @@
 //  Copyright (c) 2016 ZIPPY.Z All Rights Reserved.
 //================================================
 
-#include "utils/ctimer.h"
+#include "ctimer.h"
 #include <errno.h>
 
 /*
@@ -47,7 +47,7 @@ void CTimer::thread_proc() {
     struct timeval tempval;
     tempval.tv_sec = m_second;
     tempval.tv_usec = m_microsecond;
-    int err;
+    int err = 0;
     do {
       select(0, NULL, NULL, NULL, &tempval);
     } while (err < 0 && errno == EINTR);
